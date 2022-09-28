@@ -3,9 +3,11 @@
 
 def palin(word):
     if word == word[::-1]:
-        return True
+        print(f"Wyraz {word} jest palindromem")
+        return(True)
     else:
-        return False
+        print(f"Wyraz {word} nie jest palindromem")
+        return(False)
 
-palin("kajak")
-palin("ziemia")
+palin("Kajak")
+palin("rura")
